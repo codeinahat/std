@@ -1,6 +1,6 @@
 {
   "name": "@codeinahat/std",
-  "version": "0.0.0",
+  "version": "0.3.0",
   "description": "Standard CODEINAHAT LIB",
   "main": "index.js",
   "scripts": {

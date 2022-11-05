@@ -9,7 +9,7 @@ declare global {
 }
 
 String.prototype.IsEmail = function(): boolean {
-    console.log('YOU HAVE BEEN DUPPED');
-    return true;
+    const expresssion = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    return expresssion.test(this);
 }
 
