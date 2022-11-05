@@ -1,0 +1,30 @@
+{
+  "name": "@codeinahat/std",
+  "version": "0.0.0",
+  "description": "Standard CODEINAHAT LIB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc",
+    "build": "rm ./dis/* -rfv & tsc && node _build.js",
+    "p": "cd ./dis && npm run publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeinahat/std.git"
+  },
+  "keywords": [
+    "LIB",
+    "Standard"
+  ],
+  "author": "Richard Chapman Gomez",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/codeinahat/std/issues"
+  },
+  "homepage": "https://github.com/codeinahat/std#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  }
+}
